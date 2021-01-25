@@ -51,7 +51,7 @@ public class CircleApp1 {
 		
 		// end of application code.
 		
-		
+		input.close();
 		
 	}
 }

@@ -12,17 +12,10 @@ public class TestCircle {
 	 * Each test method corresponds to a ***manual***
 	 * launch and interaction with the CircleApp2.
 	 */
-
-	@After
-	public void tearDown() throws Exception {
-	}
-
 	@Test
-	public void test() {
+	public void test1() {
 		assertEquals(314.0, Circle.getArea(10.0), 1);
 	}
-
-
 
 @Test
 public void test2() {
