@@ -16,10 +16,6 @@ public class Utilities {
 	 * Refer to you lab instructions for what the method should return.
 	 */
 	
-	
-	
-	
-	
 	public static String getGeometricSequence(int ft, int ratio) {
 		String result = "";
 		
@@ -30,6 +26,7 @@ public class Utilities {
 		 * 2. No Scanner operations should appear here (e.g., input.nextInt()).
 		 *    Instead, refer to the input parameters of this method.   
 		 */
+	
 		int a1 = ft;
 		int a2 = ft * ratio;
 		int a3 = ft * ratio * ratio;
@@ -37,7 +34,6 @@ public class Utilities {
 		int a5 = ft * ratio * ratio * ratio * ratio;
 		
 	
-				
 		 result = "[" + a1  + "]" + "["+ a2 + "]"+"[" + a3  + "]"+"["+ a4  +"]" + "[" +a5 +"]" + " has average " + (a1+a2+a3+a4+a5)/5.0;
 		 int average = a1 + a2 + a3 + a4 + a5;
 		
@@ -78,16 +74,7 @@ public class Utilities {
 		result = weight * 0.4536 / (height * 0.0254 * height * 0.0254);
 		
 		// k/(m*m)
-		
-
-		
-		
-		
-		
-		
-		
-		
-		
+	
 		/* Your implementation ends here. */
 		
 		return result;
@@ -124,12 +111,7 @@ public class Utilities {
 		result = days + " days " + hours + " hours " + minutes + " minutes "+ sec + " seconds";
 		
 		// 3 
-		
-		
-	
-		
-		
-		
+
 		
 		/* Your implementation ends here. */
 		
